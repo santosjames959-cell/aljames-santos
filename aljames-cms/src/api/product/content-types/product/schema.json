@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "cart_items",
+  "collectionName": "products",
   "info": {
-    "singularName": "cart-item",
-    "pluralName": "cart-items",
-    "displayName": "CartItem"
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
   },
   "options": {
     "draftAndPublish": true
@@ -38,6 +38,12 @@
     },
     "is_active": {
       "type": "boolean"
+    },
+    "order_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::order-item.order-item",
+      "mappedBy": "product"
     }
   }
 }

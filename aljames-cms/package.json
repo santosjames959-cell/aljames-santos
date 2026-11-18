@@ -1,5 +1,5 @@
 {
-  "name": "aljames-santos-cms",
+  "name": "product-cms",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -18,6 +18,7 @@
     "@strapi/database": "5.62.0",
     "@strapi/plugin-cloud": "5.62.0",
     "@strapi/plugin-users-permissions": "5.62.0",
+    "@strapi/provider-upload-cloudinary": "^5.63.0",
     "@strapi/strapi": "5.62.0",
     "pg": "8.20.0",
     "react": "^18.0.0",
@@ -25,13 +26,12 @@
     "react-router-dom": "^6.30.3",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=22.0.0 <=26.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "45f4af31-1d16-4c3e-8c44-7b9c3d9a1afc",
-    "installId": "d545137f28b7ad65c2ee04f1ddc6b3cb66a017c175ee83833dbffef3a8665bc5"
+    "uuid": "a2b5e440-751b-461f-a189-c7bda43ee0d5",
+    "installId": "d71fc9a00928e47f1f670c0302adae24291ef6fc6389e3e87ecffaa79f78bb6f"
   }
 }
